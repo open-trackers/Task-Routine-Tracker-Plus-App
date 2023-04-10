@@ -13,6 +13,7 @@
 		4004527E29E399D200B0D7B2 /* WidgetTRT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4004527D29E399D200B0D7B2 /* WidgetTRT.swift */; };
 		4004528029E399D300B0D7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4004527F29E399D300B0D7B2 /* Assets.xcassets */; };
 		4004528429E399D300B0D7B2 /* WidgetTRTExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4004527529E399D200B0D7B2 /* WidgetTRTExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		400452A429E39C7C00B0D7B2 /* TroutUI in Frameworks */ = {isa = PBXBuildFile; productRef = 400452A329E39C7C00B0D7B2 /* TroutUI */; };
 		4011EECD2961C9B000A36D87 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4011EECC2961C9B000A36D87 /* LICENSE */; };
 		402A5F2F296B7FE000A43DB3 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A5F2E296B7F7B00A43DB3 /* HistoryView.swift */; };
 		402A5F32296B835B00A43DB3 /* Tabler in Frameworks */ = {isa = PBXBuildFile; productRef = 402A5F31296B835B00A43DB3 /* Tabler */; };
@@ -91,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400452A429E39C7C00B0D7B2 /* TroutUI in Frameworks */,
 				4004527929E399D200B0D7B2 /* SwiftUI.framework in Frameworks */,
 				4004527729E399D200B0D7B2 /* WidgetKit.framework in Frameworks */,
 			);
@@ -207,6 +209,9 @@
 			dependencies = (
 			);
 			name = WidgetTRTExtension;
+			packageProductDependencies = (
+				400452A329E39C7C00B0D7B2 /* TroutUI */,
+			);
 			productName = WidgetTRTExtension;
 			productReference = 4004527529E399D200B0D7B2 /* WidgetTRTExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -678,6 +683,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		400452A329E39C7C00B0D7B2 /* TroutUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TroutUI;
+		};
 		402A5F31296B835B00A43DB3 /* Tabler */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 402A5F30296B835B00A43DB3 /* XCRemoteSwiftPackageReference "SwiftTabler" */;
