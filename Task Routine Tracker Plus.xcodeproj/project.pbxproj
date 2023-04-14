@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4004527729E399D200B0D7B2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4004527629E399D200B0D7B2 /* WidgetKit.framework */; };
-		4004527929E399D200B0D7B2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4004527829E399D200B0D7B2 /* SwiftUI.framework */; };
-		4004527C29E399D200B0D7B2 /* WidgetTRTBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4004527B29E399D200B0D7B2 /* WidgetTRTBundle.swift */; };
-		4004527E29E399D200B0D7B2 /* WidgetTRT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4004527D29E399D200B0D7B2 /* WidgetTRT.swift */; };
-		4004528029E399D300B0D7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4004527F29E399D300B0D7B2 /* Assets.xcassets */; };
-		4004528429E399D300B0D7B2 /* WidgetTRTExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4004527529E399D200B0D7B2 /* WidgetTRTExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		400452A429E39C7C00B0D7B2 /* TroutUI in Frameworks */ = {isa = PBXBuildFile; productRef = 400452A329E39C7C00B0D7B2 /* TroutUI */; };
 		4011EECD2961C9B000A36D87 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4011EECC2961C9B000A36D87 /* LICENSE */; };
 		402A5F2F296B7FE000A43DB3 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A5F2E296B7F7B00A43DB3 /* HistoryView.swift */; };
 		402A5F32296B835B00A43DB3 /* Tabler in Frameworks */ = {isa = PBXBuildFile; productRef = 402A5F31296B835B00A43DB3 /* Tabler */; };
 		403CA2CE2971F6660084785B /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 403CA2CD2971F6660084785B /* ZIPFoundation */; };
 		403CA2D22972829F0084785B /* PlusSettingsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403CA2D12972829F0084785B /* PlusSettingsForm.swift */; };
+		4057023E29EA127A00F92502 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4004527629E399D200B0D7B2 /* WidgetKit.framework */; };
+		4057023F29EA127A00F92502 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4004527829E399D200B0D7B2 /* SwiftUI.framework */; };
+		4057024229EA127A00F92502 /* WidgetTRTPBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057024129EA127A00F92502 /* WidgetTRTPBundle.swift */; };
+		4057024429EA127A00F92502 /* WidgetTRTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4057024329EA127A00F92502 /* WidgetTRTP.swift */; };
+		4057024629EA127A00F92502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4057024529EA127A00F92502 /* Assets.xcassets */; };
+		4057024A29EA127A00F92502 /* WidgetTRTPExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4057023D29EA127A00F92502 /* WidgetTRTPExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4057024F29EA128200F92502 /* TroutUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4057024E29EA128200F92502 /* TroutUI */; };
 		40879D6E29CC08B600D3C85F /* TaskRunList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40879D6D29CC08B600D3C85F /* TaskRunList.swift */; };
 		408FACFE296CAC9300D02C9C /* RoutineRunList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FACFD296CABC400D02C9C /* RoutineRunList.swift */; };
 		4094B3EE29C371E900670963 /* MainPortrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4094B3ED29C371E900670963 /* MainPortrait.swift */; };
@@ -36,12 +36,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4004528229E399D300B0D7B2 /* PBXContainerItemProxy */ = {
+		4057024829EA127A00F92502 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 40E347B229452CF0003A19B9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4004527429E399D200B0D7B2;
-			remoteInfo = WidgetTRTExtension;
+			remoteGlobalIDString = 4057023C29EA127A00F92502;
+			remoteInfo = WidgetTRTPExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -52,7 +52,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4004528429E399D300B0D7B2 /* WidgetTRTExtension.appex in Embed Foundation Extensions */,
+				4057024A29EA127A00F92502 /* WidgetTRTPExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,18 +60,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4004527529E399D200B0D7B2 /* WidgetTRTExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetTRTExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		4004527629E399D200B0D7B2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		4004527829E399D200B0D7B2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		4004527B29E399D200B0D7B2 /* WidgetTRTBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTRTBundle.swift; sourceTree = "<group>"; };
-		4004527D29E399D200B0D7B2 /* WidgetTRT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTRT.swift; sourceTree = "<group>"; };
-		4004527F29E399D300B0D7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4004528129E399D300B0D7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4004529F29E39A7C00B0D7B2 /* WidgetTRTExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetTRTExtension.entitlements; sourceTree = "<group>"; };
 		4011EECC2961C9B000A36D87 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4011EECE2961C9BC00A36D87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		402A5F2E296B7F7B00A43DB3 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		403CA2D12972829F0084785B /* PlusSettingsForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusSettingsForm.swift; sourceTree = "<group>"; };
+		4057023D29EA127A00F92502 /* WidgetTRTPExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetTRTPExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4057024129EA127A00F92502 /* WidgetTRTPBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTRTPBundle.swift; sourceTree = "<group>"; };
+		4057024329EA127A00F92502 /* WidgetTRTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTRTP.swift; sourceTree = "<group>"; };
+		4057024529EA127A00F92502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4057024729EA127A00F92502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4057025029EA12A500F92502 /* WidgetTRTPExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetTRTPExtension.entitlements; sourceTree = "<group>"; };
 		40879D6D29CC08B600D3C85F /* TaskRunList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRunList.swift; sourceTree = "<group>"; };
 		408FACFD296CABC400D02C9C /* RoutineRunList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineRunList.swift; sourceTree = "<group>"; };
 		4094B3ED29C371E900670963 /* MainPortrait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPortrait.swift; sourceTree = "<group>"; };
@@ -88,13 +88,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4004527229E399D200B0D7B2 /* Frameworks */ = {
+		4057023A29EA127A00F92502 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				400452A429E39C7C00B0D7B2 /* TroutUI in Frameworks */,
-				4004527929E399D200B0D7B2 /* SwiftUI.framework in Frameworks */,
-				4004527729E399D200B0D7B2 /* WidgetKit.framework in Frameworks */,
+				4057024F29EA128200F92502 /* TroutUI in Frameworks */,
+				4057023F29EA127A00F92502 /* SwiftUI.framework in Frameworks */,
+				4057023E29EA127A00F92502 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,17 +114,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4004527A29E399D200B0D7B2 /* WidgetTRT */ = {
-			isa = PBXGroup;
-			children = (
-				4004527B29E399D200B0D7B2 /* WidgetTRTBundle.swift */,
-				4004527D29E399D200B0D7B2 /* WidgetTRT.swift */,
-				4004527F29E399D300B0D7B2 /* Assets.xcassets */,
-				4004528129E399D300B0D7B2 /* Info.plist */,
-			);
-			path = WidgetTRT;
-			sourceTree = "<group>";
-		};
 		401064DB2973378C00BFB00E /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +130,17 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		4057024029EA127A00F92502 /* WidgetTRTP */ = {
+			isa = PBXGroup;
+			children = (
+				4057024129EA127A00F92502 /* WidgetTRTPBundle.swift */,
+				4057024329EA127A00F92502 /* WidgetTRTP.swift */,
+				4057024529EA127A00F92502 /* Assets.xcassets */,
+				4057024729EA127A00F92502 /* Info.plist */,
+			);
+			path = WidgetTRTP;
+			sourceTree = "<group>";
+		};
 		40B51E41294549D90047377A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,11 +153,11 @@
 		40E347B129452CF0003A19B9 = {
 			isa = PBXGroup;
 			children = (
-				4004529F29E39A7C00B0D7B2 /* WidgetTRTExtension.entitlements */,
+				4057025029EA12A500F92502 /* WidgetTRTPExtension.entitlements */,
 				4011EECC2961C9B000A36D87 /* LICENSE */,
 				4011EECE2961C9BC00A36D87 /* README.md */,
 				40E347BC29452CF1003A19B9 /* Sources */,
-				4004527A29E399D200B0D7B2 /* WidgetTRT */,
+				4057024029EA127A00F92502 /* WidgetTRTP */,
 				40E347BB29452CF1003A19B9 /* Products */,
 				40B51E41294549D90047377A /* Frameworks */,
 			);
@@ -167,7 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				40E347BA29452CF1003A19B9 /* Task Routine Tracker Plus.app */,
-				4004527529E399D200B0D7B2 /* WidgetTRTExtension.appex */,
+				4057023D29EA127A00F92502 /* WidgetTRTPExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,24 +196,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4004527429E399D200B0D7B2 /* WidgetTRTExtension */ = {
+		4057023C29EA127A00F92502 /* WidgetTRTPExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4004528829E399D300B0D7B2 /* Build configuration list for PBXNativeTarget "WidgetTRTExtension" */;
+			buildConfigurationList = 4057024B29EA127A00F92502 /* Build configuration list for PBXNativeTarget "WidgetTRTPExtension" */;
 			buildPhases = (
-				4004527129E399D200B0D7B2 /* Sources */,
-				4004527229E399D200B0D7B2 /* Frameworks */,
-				4004527329E399D200B0D7B2 /* Resources */,
+				4057023929EA127A00F92502 /* Sources */,
+				4057023A29EA127A00F92502 /* Frameworks */,
+				4057023B29EA127A00F92502 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WidgetTRTExtension;
+			name = WidgetTRTPExtension;
 			packageProductDependencies = (
-				400452A329E39C7C00B0D7B2 /* TroutUI */,
+				4057024E29EA128200F92502 /* TroutUI */,
 			);
-			productName = WidgetTRTExtension;
-			productReference = 4004527529E399D200B0D7B2 /* WidgetTRTExtension.appex */;
+			productName = WidgetTRTPExtension;
+			productReference = 4057023D29EA127A00F92502 /* WidgetTRTPExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		40E347B929452CF1003A19B9 /* Task Routine Tracker Plus */ = {
@@ -228,7 +228,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4004528329E399D300B0D7B2 /* PBXTargetDependency */,
+				4057024929EA127A00F92502 /* PBXTargetDependency */,
 			);
 			name = "Task Routine Tracker Plus";
 			packageProductDependencies = (
@@ -253,7 +253,7 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					4004527429E399D200B0D7B2 = {
+					4057023C29EA127A00F92502 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 					40E347B929452CF1003A19B9 = {
@@ -281,17 +281,17 @@
 			projectRoot = "";
 			targets = (
 				40E347B929452CF1003A19B9 /* Task Routine Tracker Plus */,
-				4004527429E399D200B0D7B2 /* WidgetTRTExtension */,
+				4057023C29EA127A00F92502 /* WidgetTRTPExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4004527329E399D200B0D7B2 /* Resources */ = {
+		4057023B29EA127A00F92502 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4004528029E399D300B0D7B2 /* Assets.xcassets in Resources */,
+				4057024629EA127A00F92502 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,12 +308,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4004527129E399D200B0D7B2 /* Sources */ = {
+		4057023929EA127A00F92502 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4004527E29E399D200B0D7B2 /* WidgetTRT.swift in Sources */,
-				4004527C29E399D200B0D7B2 /* WidgetTRTBundle.swift in Sources */,
+				4057024229EA127A00F92502 /* WidgetTRTPBundle.swift in Sources */,
+				4057024429EA127A00F92502 /* WidgetTRTP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,28 +337,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4004528329E399D300B0D7B2 /* PBXTargetDependency */ = {
+		4057024929EA127A00F92502 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4004527429E399D200B0D7B2 /* WidgetTRTExtension */;
-			targetProxy = 4004528229E399D300B0D7B2 /* PBXContainerItemProxy */;
+			target = 4057023C29EA127A00F92502 /* WidgetTRTPExtension */;
+			targetProxy = 4057024829EA127A00F92502 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4004528629E399D300B0D7B2 /* Debug */ = {
+		4057024C29EA127A00F92502 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = WidgetTRTExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WidgetTRTPExtension.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J735QC5U38;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WidgetTRT/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = WidgetTRT;
+				INFOPLIST_FILE = WidgetTRTP/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetTRTP;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -367,7 +367,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.openalloc.trout.plus.WidgetTRT;
+				PRODUCT_BUNDLE_IDENTIFIER = org.openalloc.trout.plus.WidgetTRTP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -377,20 +377,20 @@
 			};
 			name = Debug;
 		};
-		4004528729E399D300B0D7B2 /* Release */ = {
+		4057024D29EA127A00F92502 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = WidgetTRTExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WidgetTRTPExtension.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J735QC5U38;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WidgetTRT/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = WidgetTRT;
+				INFOPLIST_FILE = WidgetTRTP/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetTRTP;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -399,7 +399,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.openalloc.trout.plus.WidgetTRT;
+				PRODUCT_BUNDLE_IDENTIFIER = org.openalloc.trout.plus.WidgetTRTP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -618,11 +618,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4004528829E399D300B0D7B2 /* Build configuration list for PBXNativeTarget "WidgetTRTExtension" */ = {
+		4057024B29EA127A00F92502 /* Build configuration list for PBXNativeTarget "WidgetTRTPExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4004528629E399D300B0D7B2 /* Debug */,
-				4004528729E399D300B0D7B2 /* Release */,
+				4057024C29EA127A00F92502 /* Debug */,
+				4057024D29EA127A00F92502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -683,10 +683,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		400452A329E39C7C00B0D7B2 /* TroutUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = TroutUI;
-		};
 		402A5F31296B835B00A43DB3 /* Tabler */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 402A5F30296B835B00A43DB3 /* XCRemoteSwiftPackageReference "SwiftTabler" */;
@@ -696,6 +692,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 403CA2CC2971F6660084785B /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
 			productName = ZIPFoundation;
+		};
+		4057024E29EA128200F92502 /* TroutUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TroutUI;
 		};
 		40B51E44294549DF0047377A /* TroutUI */ = {
 			isa = XCSwiftPackageProductDependency;

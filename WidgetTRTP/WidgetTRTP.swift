@@ -1,5 +1,5 @@
 //
-//  WidgetTRT.swift
+//  WidgetTRTP.swift
 //
 // Copyright 2023  OpenAlloc LLC
 //
@@ -14,8 +14,8 @@ import WidgetKit
 import TroutLib
 import TroutUI
 
-struct WidgetTRT: Widget {
-    let kind: String = "WidgetTRT"
+struct WidgetTRTP: Widget {
+    let kind: String = "WidgetTRTP"
 
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
@@ -26,7 +26,7 @@ struct WidgetTRT: Widget {
     }
 }
 
-struct WidgetTRT_Previews: PreviewProvider {
+struct WidgetTRTP_Previews: PreviewProvider {
     static var previews: some View {
         let entry = WidgetEntry(timeInterval: 1000)
         return WidgetView(entry: entry)
