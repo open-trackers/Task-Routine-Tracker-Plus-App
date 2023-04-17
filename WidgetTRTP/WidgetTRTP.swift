@@ -29,7 +29,7 @@ struct WidgetTRTP: Widget {
 
 struct WidgetTRTP_Previews: PreviewProvider {
     static var previews: some View {
-        let entry = WidgetEntry(timeInterval: 1000)
+        let entry = WidgetEntry(name: "Travel", imageName: nil, timeInterval: 1000, color: nil)
         return WidgetView(entry: entry)
             .accentColor(.blue)
             .previewContext(WidgetPreviewContext(family: .systemSmall))
