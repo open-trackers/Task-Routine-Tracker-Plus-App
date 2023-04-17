@@ -1,6 +1,6 @@
 # Task Routine Tracker+
 
-_A minimal & focused task tracker, for iPhone and iPad_
+_A minimal & focused task runner, for iPhone and iPad_
 
 For full details, including free download links from the App Store, visit:
 
