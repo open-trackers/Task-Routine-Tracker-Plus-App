@@ -167,17 +167,6 @@ struct TaskRunList<Header: View>: View {
         ElapsedTimeText(elapsedSecs: getDuration(completedAt) ?? 0, timeElapsedFormat: timeElapsedFormat)
     }
 
-//    private func intensityText(_ intensity: Float, _ units: Int16?) -> some View {
-//        Text(formattedIntensity(intensity, units))
-//            .modify {
-//                if #available(iOS 16.1, watchOS 9.1, *) {
-//                    $0.fontDesign(.monospaced)
-//                } else {
-//                    $0.monospaced()
-//                }
-//            }
-//    }
-
     private func durationText(_ duration: TimeInterval) -> some View {
         Text(tc.string(from: duration as NSNumber) ?? "")
     }
