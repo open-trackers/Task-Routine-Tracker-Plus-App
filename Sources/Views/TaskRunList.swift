@@ -164,7 +164,7 @@ struct TaskRunList<Header: View>: View {
     }
 
     private func elapsedText(_ completedAt: Date?) -> some View {
-        ElapsedTimeText(elapsedSecs: getDuration(completedAt) ?? 0, timeElapsedFormat: timeElapsedFormat)
+        ElapsedTimeText(elapsedSecs: getDuration(completedAt) ?? 0, timeElapsedFormat: .hh_mm_ss)
     }
 
     private func durationText(_ duration: TimeInterval) -> some View {
@@ -172,12 +172,6 @@ struct TaskRunList<Header: View>: View {
     }
 
     // MARK: - Properties
-
-    // select a formatter to accommodate the duration
-    private var timeElapsedFormat: TimeElapsedFormat {
-        let secondsPerHour: TimeInterval = 3600
-        return zRoutineRun.elapsedSecs < secondsPerHour ? .mm_ss : .hh_mm_ss
-    }
 
     // MARK: - Actions
 
